@@ -1,0 +1,37 @@
+describe("calculator", () => {
+  it("shoud perform add", () => {});
+  it("should perform subtract", () => {});
+  it("should perform multiply", () => {});
+});
+
+it alias of test
+
+
+beforeEach
+afterEach
+beforeAll
+afterAll
+
+Equality
+========
+toEqual
+toBe
+
+.not
+=====
+it('basic usage',()=>{
+expect(1+2).not.toEqual(2)});
+
+.toMatch for regex
+
+toContain and toContainEqual
+
+expect
+======
+
+expect.StringContaining
+expect.arrayContaining
+expect.objectContaining
+
+
+jest.fn
